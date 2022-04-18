@@ -29,7 +29,7 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'contributing',
-        message: 'Who are the contributors of this project?',
+        message: 'Who are the contributors of this project? How can some contribute if they wanted to?',
       },
       {
         type: 'input',
@@ -47,6 +47,14 @@ const promptUser = () => {
         name: 'license',
         message: 'Select the appropriate license for this project',
         choices: ['MIT', 'Apache', 'GNU']
+      },
+      {
+        type: 'checkbox',
+        message: 'Technologies were used?',
+        name: 'stack',
+        choices: [' HTML', ' CSS', ' javaScript', ' MySQL', ' Node.js', ' jQuery', ' Bootstrap', ' TailWind', ' Webkit Modules',
+      ],
+
       },
 
 
