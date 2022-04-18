@@ -51,8 +51,8 @@ const promptUser = () => {
       {
         type: 'checkbox',
         message: 'Technologies were used?',
-        name: 'stack',
-        choices: [' HTML', ' CSS', ' javaScript', ' MySQL', ' Node.js', ' jQuery', ' Bootstrap', ' TailWind', ' Webkit Modules',
+        name: 'tech',
+        choices: ['HTML5', 'CSS', 'javaScript', 'MySQL', 'Node.js', 'jQuery', 'Bootstrap', 'TailWind', 'WebkitModules', 'Express.js',
       ],
 
       },
